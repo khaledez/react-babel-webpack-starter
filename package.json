@@ -28,8 +28,10 @@
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.9.0"
   },
-  "targets": {
-    "chrome": "75",
-    "firefox": "68"
+  "babel": {
+    "presets": [
+      ["@babel/preset-env", {"targets": "> 5%, not dead"}],
+      ["@babel/preset-react", {}]
+    ]
   }
 }
