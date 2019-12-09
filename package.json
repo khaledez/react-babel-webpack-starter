@@ -30,8 +30,16 @@
   },
   "babel": {
     "presets": [
-      ["@babel/preset-env", {"targets": "> 5%, not dead"}],
-      ["@babel/preset-react", {}]
+      [
+        "@babel/preset-env",
+        {
+          "targets": "> 5%, not dead"
+        }
+      ],
+      [
+        "@babel/preset-react",
+        {}
+      ]
     ]
   }
 }
